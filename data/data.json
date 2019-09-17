@@ -1,0 +1,82 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "name",
+            "value": "rajtha"
+          }
+        ],
+        "text": "My name is rajitha"
+      },
+      {
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "entity": "name",
+            "value": "Rajtha"
+          }
+        ],
+        "text": "i am Rajitha"
+      },
+      {
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "name",
+            "value": "Sunil"
+          }
+        ],
+        "text": "my name is Sunil"
+      },
+      {
+        "intent": "sim_query",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "entity": "location",
+            "value": "Colombo"
+          }
+        ],
+        "text": "How to buy new Mobitel Sim in Colombo"
+      },
+      {
+        "intent": "balance_query",
+        "text": "balance"
+      },
+      {
+        "intent": "account",
+        "text": "0713289379"
+      },
+      {
+        "intent": "account",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "number",
+            "value": "0713777113",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "0713777113"
+      },
+      {
+        "intent": "account",
+        "text": "01231212"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
